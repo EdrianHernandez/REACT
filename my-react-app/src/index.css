@@ -47,3 +47,30 @@
 .Student p{
   margin: 8px;
 }
+
+
+.welcome-message{
+  font-family: Arial, sans-serif;
+  font-size: 2.5em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  color: #0daa1a;
+  background-color: #89ff8f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
+
+.not-message{
+  font-family: Arial, sans-serif;
+  font-size: 2.5em;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  color: #e00a0a;
+  background-color: #ff8989;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px;
+}
