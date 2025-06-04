@@ -1,8 +1,8 @@
-import ColorPicker from './ColorPicker.jsx';
+import Updater from './Updater.jsx';
 
 function App() {
   
-  return(<ColorPicker />);
+  return(<Updater />);
 }
 
 export default App
