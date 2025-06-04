@@ -1,8 +1,8 @@
-import Counter from './Counter.jsx';
+import OnChange from './OnChange.jsx';
 
 function App() {
   
-  return(<Counter />);
+  return(<OnChange />);
 }
 
 export default App
