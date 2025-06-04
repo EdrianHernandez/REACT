@@ -1,8 +1,8 @@
-import Updater from './Updater.jsx';
+import UpdateArray from './UpdateArray.jsx';
 
 function App() {
   
-  return(<Updater />);
+  return(<UpdateArray />);
 }
 
 export default App
