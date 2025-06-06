@@ -1,8 +1,8 @@
-import UpdateArray2 from './UpdateArray2.jsx';
+import ToDoList from './ToDoList.jsx';
 
 function App() {
   
-  return(<UpdateArray2 />);
+  return(<ToDoList />);
 }
 
 export default App

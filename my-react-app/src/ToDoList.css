@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+
+body {
+    font-family: 'Wendy One', sans-serif;
+    background: #ffeac9;
+    background: radial-gradient(circle,rgba(255, 234, 201, 1) 0%, rgba(180, 207, 237, 1) 100%);
+}
+
+.to-do-list{
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size:3em;
+    color: #150c68;
+    text-shadow: 4px 8px 12px rgba(0,0,0,0.4);
+
+}
+h1:hover {
+  animation: glitch .3s linear infinite;
+  cursor: pointer;
+}
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.AddTask{
+    background-color: #008CBA;
+    color: white;
+}
+.AddTask:hover {
+    background-color: #005f73;
+}
+.DeleteTask {
+    background-color: #f44336;
+    color: white;
+}
+.DeleteTask:hover {
+    background-color: #c62828;
+}
+.UpTask {
+    background-color: #4CAF50;
+    color: white;
+}
+.UpTask:hover {
+    background-color: #357a38;
+}
+.DownTask {
+    background-color: #ff9800;
+    color: white;
+}
+.DownTask:hover {
+    background-color: #f57c00;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    font-size: 1.2em;
+    background-color: hsla(0, 0%, 48%, 0.239);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.text {
+    flex: 1;
+    font-size: 1.2em;
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.4);
+}
+
+.DeleteTask, .UpTask, .DownTask {
+    margin-left: 10px;
+    font-size: 1em;
+    padding: 8px 12px;
+}
