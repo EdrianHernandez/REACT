@@ -1,8 +1,8 @@
-import Clock from './Clock.jsx';
+import ComponentA from './ComponentA.jsx';
 
 function App() {
   
-  return(<Clock />);
+  return(<ComponentA />);
 }
 
 export default App
