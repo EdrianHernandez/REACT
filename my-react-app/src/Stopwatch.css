@@ -1,0 +1,79 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: #ffeac9;
+    background: radial-gradient(circle,rgba(255, 234, 201, 1) 0%, rgba(180, 207, 237, 1) 100%);
+}
+
+.stopwatch {
+    color: #333;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 42px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.display{
+    font-size: 5.5em;
+    font-family: monospace;
+    font-weight: bold;
+    color: #150c68;
+    text-shadow: 4px 8px 12px rgba(0,0,0,0.4);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.start-button {
+    background-color: #0c681b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.start-button:hover {
+    background-color: #0d7f1c;
+    transform: scale(1.05);
+}
+.stop-button {
+    background-color: #c70039;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.stop-button:hover {
+    background-color: #d1003f;
+    transform: scale(1.05);
+}
+.reset-button {
+    background-color: #0e0558;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.reset-button:hover {
+    background-color: #1a0b6c;
+    transform: scale(1.05);
+}

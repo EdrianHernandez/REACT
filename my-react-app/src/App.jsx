@@ -1,8 +1,8 @@
-import Component3 from './Component3.jsx';
+import Stopwatch from './Stopwatch.jsx';
 
 function App() {
   
-  return(<Component3 />);
+  return(<Stopwatch />);
 }
 
 export default App
